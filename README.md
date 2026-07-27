@@ -1,5 +1,5 @@
 # Beacon
-
+**Demo en vivo:** https://beacon-wasd.onrender.com
 RAG-powered MCP server that acts as a knowledge base for conversational AI agents.
 
 Built for the Alura Agentes challenge (Programa ONE) and designed to plug into an existing LangGraph-based agent via the Model Context Protocol.
