@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "beacon_demo": "./app/agent/demo.py:agent"
+  },
+  "env": ".env"
+}

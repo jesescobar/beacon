@@ -1,0 +1,42 @@
+[
+  {
+    "question": "¿Cuáles son los horarios de entrega?",
+    "expected_keywords": ["6:30", "22:30", "23:30", "domingo", "jueves"]
+  },
+  {
+    "question": "¿Qué pasa si me falta un producto en el pedido?",
+    "expected_keywords": ["WhatsApp", "0971 444 600", "reembolso", "medio de pago"]
+  },
+  {
+    "question": "¿Puedo devolver un producto perecedero?",
+    "expected_keywords": ["24 horas", "inocuidad", "calidad", "envase", "etiquetas"]
+  },
+  {
+    "question": "¿Cuánto tiempo tengo para reclamar un producto no perecedero?",
+    "expected_keywords": ["120 horas", "5 días"]
+  },
+  {
+    "question": "¿Qué medios de pago aceptan?",
+    "expected_keywords": ["Bancard", "Pagopar", "POS", "QR"]
+  },
+  {
+    "question": "¿Aceptan pago en efectivo?",
+    "expected_keywords": ["efectivo", "no"]
+  },
+  {
+    "question": "¿Cómo sé si mi dirección tiene cobertura?",
+    "expected_keywords": ["GPS", "dirección", "app", "cobertura"]
+  },
+  {
+    "question": "¿En qué zonas operan?",
+    "expected_keywords": ["Asunción", "Gran Asunción"]
+  },
+  {
+    "question": "¿Cómo contacto a soporte?",
+    "expected_keywords": ["WhatsApp", "0971 444 600", "info@plub.com"]
+  },
+  {
+    "question": "¿Puedo usar dos cupones en el mismo pedido?",
+    "expected_keywords": ["un cupón", "no"]
+  }
+]
