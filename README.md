@@ -13,11 +13,11 @@ A LangGraph agent can already search a product catalog and add items to a cart. 
 ```mermaid
 flowchart TD
     A[Mobile app] --> B[BFF / gateway]
-    B --> C["Agent backend\nFastAPI + LangGraph"]
-    C --> D["MCP existente\ncatálogo · carrito"]
-    C --> E["Beacon\nMCP server · nuevo"]
+    B --> C["Agent backend<br/>FastAPI + LangGraph"]
+    C --> D["MCP existente<br/>catálogo · carrito"]
+    C --> E["Beacon<br/>MCP server · nuevo"]
     D --> F[APIs de negocio]
-    E --> G["Knowledge base\nChromaDB · documentos"]
+    E --> G["Knowledge base<br/>ChromaDB · documentos"]
 ```
 
 ## RAG pipeline
@@ -25,15 +25,15 @@ flowchart TD
 ```mermaid
 flowchart LR
     subgraph Offline
-        A["Documentos\n.md / .pdf"] --> B["Chunker\nsize=500 overlap=50"]
-        B --> C["Embedder\nmodels/text-embedding-004"]
+        A["Documentos<br/>.md / .pdf"] --> B["Chunker<br/>size=500 overlap=50"]
+        B --> C["Embedder<br/>models/text-embedding-004"]
         C --> D[(ChromaDB)]
     end
     subgraph Online
-        E[Query del agente] --> F[Embedder\nmisma key]
-        F --> G["Búsqueda semántica\ntop-k=4"]
+        E[Query del agente] --> F["Embedder<br/>misma key"]
+        F --> G["Búsqueda semántica<br/>top-k=4"]
         D --> G
-        G --> H["Respuesta\ncon fuentes"]
+        G --> H["Respuesta<br/>con fuentes"]
     end
 ```
 
